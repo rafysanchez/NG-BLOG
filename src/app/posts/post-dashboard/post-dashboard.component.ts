@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'
-import { Observable } from 'rxjs/Observable'
-import { AngularFireStorage } from 'angularfire2/storage'
+import { Observable } from 'rxjs/observable'
+import { AngularFireStorage } from 'angularfire2/firestore'
 
 import { AuthService } from '../../core/auth.service'
 import { PostService } from '../post.service'
